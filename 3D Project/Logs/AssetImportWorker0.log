@@ -15,7 +15,7 @@ C:/Users/Kim/Desktop/Project/Fantasy_Party/3D Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64903
+50993
 Successfully changed project path to: C:/Users/Kim/Desktop/Project/Fantasy_Party/3D Project
 C:/Users/Kim/Desktop/Project/Fantasy_Party/3D Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Kim/Desktop/Project/Fantasy_Party/3D Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2548] Host "[IP] 119.202.69.184 [Port] 0 [Flags] 2 [Guid] 1169709841 [EditorId] 1169709841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5MEC467) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12860] Host "[IP] 210.104.91.36 [Port] 0 [Flags] 2 [Guid] 3861638344 [EditorId] 3861638344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5MEC467) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2548] Host "[IP] 119.202.69.184 [Port] 0 [Flags] 2 [Guid] 1169709841 [EditorId] 1169709841 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5MEC467) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12860] Host "[IP] 210.104.91.36 [Port] 0 [Flags] 2 [Guid] 3861638344 [EditorId] 3861638344 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5MEC467) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 14.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017077 seconds.
-- Loaded All Assemblies, in  0.561 seconds
+Registered in 0.011287 seconds.
+- Loaded All Assemblies, in  0.454 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 388 ms
+Android Extension - Scanning For ADB Devices 259 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.878 seconds
-Domain Reload Profiling: 1437ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1029ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (61ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (223ms)
-		LoadAssemblies (158ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (152ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (197ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (879ms)
+	FinalizeReload (577ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (786ms)
+		SetupLoadedEditorAssemblies (517ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (553ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (369ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (153ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 1437ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.955 seconds
-Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.610 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,48 +127,85 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.896 seconds
-Domain Reload Profiling: 1847ms
-	BeginReloadAssembly (238ms)
+- Finished resetting the current domain, in  0.575 seconds
+Domain Reload Profiling: 1182ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (54ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (65ms)
-	LoadAllAssembliesAndSetupDomain (574ms)
-		LoadAssemblies (431ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (282ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (278ms)
-			TypeCache.Refresh (243ms)
-				TypeCache.ScanAssembly (220ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (896ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (575ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (636ms)
+		SetupLoadedEditorAssemblies (414ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (447ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 4.71 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.4 KB). Loaded Objects now: 3579.
-Memory consumption went from 146.0 MB to 146.0 MB.
-Total: 3.648900 ms (FindLiveObjects: 0.321700 ms CreateObjectMapping: 0.244300 ms MarkObjects: 2.968100 ms  DeleteObjects: 0.113700 ms)
+Unloading 32 unused Assets / (57.2 KB). Loaded Objects now: 3579.
+Memory consumption went from 145.9 MB to 145.9 MB.
+Total: 2.618800 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.160100 ms MarkObjects: 2.144300 ms  DeleteObjects: 0.088100 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7409.029091 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(85ed28027983b05439f5b2e370a7514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(85ed28027983b05439f5b2e370a7514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abb01a23ce9cceff2314ee1ca570247') in 0.002399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.784073 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Textures
+  artifactKey: Guid(0c3ce5f75d9f0ed419c1257d6e090351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Stone/Textures using Guid(0c3ce5f75d9f0ed419c1257d6e090351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35db76bdbcbe22fbe184ab60baeee63c') in 0.001615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3579.
+Memory consumption went from 93.0 MB to 93.0 MB.
+Total: 2.583700 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.168700 ms MarkObjects: 2.169800 ms  DeleteObjects: 0.015300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -184,673 +221,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 361457.351783 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_01.prefab
-  artifactKey: Guid(9ec9a389e33c64a418c1a821a228a8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_01.prefab using Guid(9ec9a389e33c64a418c1a821a228a8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f4cdab93eeac72d23b87a1977880c') in 0.146046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_06.prefab
-  artifactKey: Guid(72604a75170e28a4d9d293a3b853864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_06.prefab using Guid(72604a75170e28a4d9d293a3b853864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a3856bf3ed1ed1039a7ee26eda27de') in 0.038162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_03.prefab
-  artifactKey: Guid(184d205ad7b7e484ca73918442247db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_03.prefab using Guid(184d205ad7b7e484ca73918442247db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd4030c800cf27eace464fefbdfbcf7') in 0.039093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_05.prefab
-  artifactKey: Guid(a0929c345d695b446b781829efd07e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_05.prefab using Guid(a0929c345d695b446b781829efd07e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c6c9fc135dc9d3a03d2496c7968e39') in 0.025580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_07.prefab
-  artifactKey: Guid(6afd93558491a644aa321f16633b1586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_07.prefab using Guid(6afd93558491a644aa321f16633b1586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c304a1a994e398564c974f4b0ac8d660') in 0.026146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_04.prefab
-  artifactKey: Guid(2014f532e36a21e4fa7048bc7e4b60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_04.prefab using Guid(2014f532e36a21e4fa7048bc7e4b60e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd68ca83340af30bf87c4d6dace0624') in 0.026286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/House/House_02.prefab
-  artifactKey: Guid(def968192fd81424483a976346f52b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/House/House_02.prefab using Guid(def968192fd81424483a976346f52b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a9a4969868abaf21cc1f86b3a8e12b') in 0.035802 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 19.690510 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Box.prefab
-  artifactKey: Guid(ad7194aa8031aa74d9226754ef39fadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Box.prefab using Guid(ad7194aa8031aa74d9226754ef39fadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377ed1b695e9eb2413c883a9dc80a699') in 0.023332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Map.prefab
-  artifactKey: Guid(ebfe282d3f4f1bb418147d0694096aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Map.prefab using Guid(ebfe282d3f4f1bb418147d0694096aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7b9b06e7c2524bf12683a4fa7eb097') in 0.024076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Vooden_Barrel.prefab
-  artifactKey: Guid(1577a51f2ebf155438ad431e44edd054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Vooden_Barrel.prefab using Guid(1577a51f2ebf155438ad431e44edd054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfca8d3e474a09135b8ef880b4aad12') in 0.022823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Well.prefab
-  artifactKey: Guid(0224e7bbe5b06f74fa47bed3adcde6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Well.prefab using Guid(0224e7bbe5b06f74fa47bed3adcde6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9474b35beee4bb8b321e421f04533085') in 0.030771 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Water_Tank.prefab
-  artifactKey: Guid(1b9e59d5bb6f48643b2067fd21e8c7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Water_Tank.prefab using Guid(1b9e59d5bb6f48643b2067fd21e8c7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27dacf19c2b98620976d01783142561') in 0.029257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Woods.prefab
-  artifactKey: Guid(1ecf13f524bb9f24f8865999c4720fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Woods.prefab using Guid(1ecf13f524bb9f24f8865999c4720fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7442bf3f56b7acdf0088f3de746d06') in 0.031512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Wood_Car.prefab
-  artifactKey: Guid(9acd46bf5bf85774e88502a8be84d200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Wood_Car.prefab using Guid(9acd46bf5bf85774e88502a8be84d200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313238e2dc2cef02ee00ad4d756a8469') in 0.028721 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Street_Lamp.prefab
-  artifactKey: Guid(ee21998f11acbec418dff52eb5ecfde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Street_Lamp.prefab using Guid(ee21998f11acbec418dff52eb5ecfde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370e7e3d87e041e2f6b0e223ecb1ef08') in 0.029587 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Watch_Tower.prefab
-  artifactKey: Guid(958ebaba05daaea408218354ec7b8995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Watch_Tower.prefab using Guid(958ebaba05daaea408218354ec7b8995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540585ac07fde7e56f5f302f552b4b4f') in 0.029330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Chest.prefab
-  artifactKey: Guid(5284e19d79f18ca43b024510c85409e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Chest.prefab using Guid(5284e19d79f18ca43b024510c85409e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b7ec888b0863d6a0ba3c938be14414') in 0.030224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Windmill.prefab
-  artifactKey: Guid(dadc5d356bf1d214bb2e29c57c636430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Windmill.prefab using Guid(dadc5d356bf1d214bb2e29c57c636430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b24e52ccf3e8a916fe850258c6a95c4') in 0.051603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Wood_02.prefab
-  artifactKey: Guid(5c3bd99615643bd4c93c3866cb13d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Wood_02.prefab using Guid(5c3bd99615643bd4c93c3866cb13d40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc55bc1e5809e3a95d419834dfab2c6') in 0.031164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Wooden_Case.prefab
-  artifactKey: Guid(3ee41b4affb3dc94586979509002914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Other_Objects/Wooden_Case.prefab using Guid(3ee41b4affb3dc94586979509002914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9030481e43e2aa353af67f660e58c46') in 0.029422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.422227 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Flower/Flower_Blue.prefab
-  artifactKey: Guid(3c33dd9f8c953874d93f59099fd1d47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Flower/Flower_Blue.prefab using Guid(3c33dd9f8c953874d93f59099fd1d47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68030b249251d81c53513f1a9287f871') in 0.027436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Flower/Flower_Yellow.prefab
-  artifactKey: Guid(2697438e5b95a1e40b979fa1f310ed1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Flower/Flower_Yellow.prefab using Guid(2697438e5b95a1e40b979fa1f310ed1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a716f1b50f885f8a7c3ce13a590b17') in 0.029060 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Flower/Flower_Purple.prefab
-  artifactKey: Guid(a46a4f4def640c14e9b3d178716831e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Flower/Flower_Purple.prefab using Guid(a46a4f4def640c14e9b3d178716831e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a3a691c075d44be10397c4512e3dd9') in 0.028078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 54.709726 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Bank/Bank_01.prefab
-  artifactKey: Guid(c1cad0a248d20c34fada0f5b3279ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Bank/Bank_01.prefab using Guid(c1cad0a248d20c34fada0f5b3279ea88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd614a59cefe9a6c0adba68058912f6f1') in 0.031085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Bank/Bank_02.prefab
-  artifactKey: Guid(7a2294f24c802c24e9494529f96a9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Bank/Bank_02.prefab using Guid(7a2294f24c802c24e9494529f96a9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63122e1aa627b0e4cb6f9875654f731') in 0.054552 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.296209 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Barn/Barn_01.prefab
-  artifactKey: Guid(91627a40468b6554997fd42252dca814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Barn/Barn_01.prefab using Guid(91627a40468b6554997fd42252dca814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2803362530be483ec1ba972278d741ef') in 0.026931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Barn/Barn_02.prefab
-  artifactKey: Guid(f0f11450893997e4dbb6f01190fea511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Barn/Barn_02.prefab using Guid(f0f11450893997e4dbb6f01190fea511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b680f8451493d106a45200fa73bdf62') in 0.022520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Barn/Barn_03.prefab
-  artifactKey: Guid(dfb0fbdb3e1e8144e872ef4e41f9d317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Barn/Barn_03.prefab using Guid(dfb0fbdb3e1e8144e872ef4e41f9d317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd427f6a18bc6e227fcab70e23e071868') in 0.028468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 84.222995 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Billet/Billet_01.prefab
-  artifactKey: Guid(fa8a60abea1cd9446bd9b098babe43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Billet/Billet_01.prefab using Guid(fa8a60abea1cd9446bd9b098babe43bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5323c5e501c5445abab587eddded824b') in 0.017012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Billet/Billet_03.prefab
-  artifactKey: Guid(03a4b6dd68764bf4bb8e193c2daa0e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Billet/Billet_03.prefab using Guid(03a4b6dd68764bf4bb8e193c2daa0e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82a2b5783853e2ee125611ef8c9f830') in 0.030405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Billet/Billet_02.prefab
-  artifactKey: Guid(c650f48a4e81a7e408855add77a63f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Billet/Billet_02.prefab using Guid(c650f48a4e81a7e408855add77a63f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33767a5fadcc3eae11753cba2d9053ca') in 0.031171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.205340 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Bushes/Bushes_01.prefab
-  artifactKey: Guid(6609eb9e17471c64fa29f208b9f2a6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Bushes/Bushes_01.prefab using Guid(6609eb9e17471c64fa29f208b9f2a6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fb25cde1bbb3db296a03e0516cdf25') in 0.024225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Bushes/Bushes_02.prefab
-  artifactKey: Guid(51b8fc81aef14b14ea1b8fb1ecb2b082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Bushes/Bushes_02.prefab using Guid(51b8fc81aef14b14ea1b8fb1ecb2b082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd2ecbe4a06348dae65e4d1935de6cf') in 0.027100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Bushes/Bushes_03.prefab
-  artifactKey: Guid(d9206355b7757244ab0f522bf6836655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Bushes/Bushes_03.prefab using Guid(d9206355b7757244ab0f522bf6836655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10396c31eb8b190278612469c57bebbe') in 0.032337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.810936 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Fence/Fence.prefab
-  artifactKey: Guid(1bb967a6107cba746abfec6abb84983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Fence/Fence.prefab using Guid(1bb967a6107cba746abfec6abb84983a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77cc3f18396a6bcbd69af91ddee8d8c') in 0.026392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Fence/Fence_Small.prefab
-  artifactKey: Guid(3f9661d6a38ab6c42815b329dc086bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Fence/Fence_Small.prefab using Guid(3f9661d6a38ab6c42815b329dc086bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d5b39f6b1f128de4798fca6ccaac2c') in 0.033788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Fence/Fence_Bold.prefab
-  artifactKey: Guid(7e33bcda0f4c2ed489139de375e2ab3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Fence/Fence_Bold.prefab using Guid(7e33bcda0f4c2ed489139de375e2ab3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3413cb4692e16108d81956b7daf496f') in 0.027169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 5.766087 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Field/Corn_Field.prefab
-  artifactKey: Guid(0468f27d1edbdac47ac2c1f1af58674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Field/Corn_Field.prefab using Guid(0468f27d1edbdac47ac2c1f1af58674a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9513c8964b720ba89d67c0fbc3a0aa') in 0.041749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Field/Empty_Field.prefab
-  artifactKey: Guid(343d63e58c0d2c14b851888112f2b650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Field/Empty_Field.prefab using Guid(343d63e58c0d2c14b851888112f2b650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29da96f462cdd2c5af5eea78d9b3f77f') in 0.036034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Field/Tomatoes_Field.prefab
-  artifactKey: Guid(f09c1da76fc98674ab354a7649fbd3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Field/Tomatoes_Field.prefab using Guid(f09c1da76fc98674ab354a7649fbd3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db701e7b2eacab2cbffb819de9abadcf') in 0.049536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Field/Sunflower_Field.prefab
-  artifactKey: Guid(39522471a34a22d4db16898828703cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Field/Sunflower_Field.prefab using Guid(39522471a34a22d4db16898828703cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360a5e973c4e2e92b91c1742cbf0a497') in 0.034229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1410.364319 seconds.
-  path: Assets/Map2/LowPolyVillage/Material
-  artifactKey: Guid(ed0fb60c1d4e55e479c48802a4873373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Material using Guid(ed0fb60c1d4e55e479c48802a4873373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4313f8c256b703d2e24e7fe1748b7064') in 0.001016 seconds
+  Time since last request: 13.108751 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(f0a4cd9ebd40ba446b4f0bbb19bbe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(f0a4cd9ebd40ba446b4f0bbb19bbe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df010dba94eb48fb8ad26a72977b307') in 0.001461 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 19.261503 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes
-  artifactKey: Guid(6aa4ecc7177bdbd41aee1e081656477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes using Guid(6aa4ecc7177bdbd41aee1e081656477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3a7abb4c5b82f0d7c14d1288c2bce7') in 0.000558 seconds
+  Time since last request: 9.439777 seconds.
+  path: Assets/Load
+  artifactKey: Guid(f0a4cd9ebd40ba446b4f0bbb19bbe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Load using Guid(f0a4cd9ebd40ba446b4f0bbb19bbe1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b699fbb7bae707b51e0667fb79b231') in 0.000464 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.788389 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Bank
-  artifactKey: Guid(4a8d31b7c477e87479ccb45fc63856a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Bank using Guid(4a8d31b7c477e87479ccb45fc63856a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17e596edf253dff0cc3b7227f20c929') in 0.000950 seconds
+  Time since last request: 2096.802448 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(d1664d4b1797a0243ab8841fb07903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(d1664d4b1797a0243ab8841fb07903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a04f9125aaf6d7a6ecefa0fab7a6bb') in 0.001419 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.078481 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Bank/Bank_01.fbx
-  artifactKey: Guid(c3c1fe45282b20e48a7d4f6032f3c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Bank/Bank_01.fbx using Guid(c3c1fe45282b20e48a7d4f6032f3c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31076a9062ad27b2a36c5b0366cde606') in 0.202448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Bank/Bank_02.fbx
-  artifactKey: Guid(d995b826105a52a44aa3f2de5602705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Bank/Bank_02.fbx using Guid(d995b826105a52a44aa3f2de5602705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f06a8fbe43398baacbe5167a607718') in 0.036980 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.333946 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Billet
-  artifactKey: Guid(f09c4e2a918c6a043a13eedf7dc363fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Billet using Guid(f09c4e2a918c6a043a13eedf7dc363fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf9a5d09dc481640a0d14432d9bc330') in 0.002856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.058746 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Billet/Billet_01.fbx
-  artifactKey: Guid(f7558539144e70c4aae85e2f726ef3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Billet/Billet_01.fbx using Guid(f7558539144e70c4aae85e2f726ef3a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404f313245280bf161db12b2bd8a3636') in 0.034865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Billet/Billet_03.fbx
-  artifactKey: Guid(1d72edbac55a6c749988edb567739bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Billet/Billet_03.fbx using Guid(1d72edbac55a6c749988edb567739bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfa154a90eb8daae2b82546264c468a') in 0.089196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Billet/Billet_02.fbx
-  artifactKey: Guid(ea8b986a432fae142b43e08886989597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Billet/Billet_02.fbx using Guid(ea8b986a432fae142b43e08886989597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de985d272feb1e0b475f0ab8429215e') in 0.051321 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.171984 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House
-  artifactKey: Guid(8669a86f132df404a8557144603ce8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House using Guid(8669a86f132df404a8557144603ce8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa3c767e998b27f343661ac212e0e80') in 0.002922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.093015 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_01.fbx
-  artifactKey: Guid(84e8cd7ad90e36640a7622f29c47d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_01.fbx using Guid(84e8cd7ad90e36640a7622f29c47d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be841b162a78a10be6e8c894c9fb2f3') in 0.028450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_02.fbx
-  artifactKey: Guid(bf0f0fecac8996a4f8ca155ec31902ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_02.fbx using Guid(bf0f0fecac8996a4f8ca155ec31902ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e61d3f73c8dc48fa6c9401ccd8993ff') in 0.034470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_05.fbx
-  artifactKey: Guid(6f3c96e1c8fb50946899c94eb00593cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_05.fbx using Guid(6f3c96e1c8fb50946899c94eb00593cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddca02b030700c8737cf4ec7cb79977') in 0.031987 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_04.fbx
-  artifactKey: Guid(9a4b13afacf5c724280336406d2fe990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_04.fbx using Guid(9a4b13afacf5c724280336406d2fe990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7ab4fe67a4c56df141245ce904f458') in 0.030138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_06.fbx
-  artifactKey: Guid(97f960fe472621d45837611e2d974afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_06.fbx using Guid(97f960fe472621d45837611e2d974afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948a68aae4ba61c0280db6d6cd321e00') in 0.029990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_03.fbx
-  artifactKey: Guid(a742103d530ba2143a5a0eb829e89662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_03.fbx using Guid(a742103d530ba2143a5a0eb829e89662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a96b29a5c1ef2eb0072b07c2d49c74') in 0.029260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/House/House_07.fbx
-  artifactKey: Guid(d46525288bf26e14aba3e9514ab63fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/House/House_07.fbx using Guid(d46525288bf26e14aba3e9514ab63fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc2a9ac9d488d1b341ffe1b09ddef37') in 0.030436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 2.209799 seconds.
-  path: Assets/Map2/LowPolyVillage/Meshes/Other_Objects
-  artifactKey: Guid(e94d0242558658f4b9c8631ac4680186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Meshes/Other_Objects using Guid(e94d0242558658f4b9c8631ac4680186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edde9fdd2693c5e39e5765f51e2eb05') in 0.000752 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1611.014944 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Empty_Wood.prefab
-  artifactKey: Guid(918ca8ce04e69de4c953d61ff03bd365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Empty_Wood.prefab using Guid(918ca8ce04e69de4c953d61ff03bd365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d5ca084534cdc3a970c75cc12dbb6c') in 0.105330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Purple.prefab
-  artifactKey: Guid(29ef9a712a6f84541a21a423a1e1bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Purple.prefab using Guid(29ef9a712a6f84541a21a423a1e1bbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6833aca59f629cfd0f12f098fce0bb0') in 0.056482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Wood.prefab
-  artifactKey: Guid(c357c9df5bbccec4b829a6e9dc3759c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Wood.prefab using Guid(c357c9df5bbccec4b829a6e9dc3759c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a575d0af1f01f9106f0cba16139e24b') in 0.059349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Orange.prefab
-  artifactKey: Guid(f2a879fb0ab02e24091b2ade1c8d3ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stand/Stand_Orange.prefab using Guid(f2a879fb0ab02e24091b2ade1c8d3ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad4d6a50d43276da1f219cfac60d7a') in 0.032583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 3.025252 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_01.prefab
-  artifactKey: Guid(e7567d1b4fd032a42b27ce11f5e7373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_01.prefab using Guid(e7567d1b4fd032a42b27ce11f5e7373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e11b84241501c9041fe013ff0e0822') in 0.020795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_04.prefab
-  artifactKey: Guid(6982e096de037394b958f92a1218fbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_04.prefab using Guid(6982e096de037394b958f92a1218fbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d166fa79fc0cce6f7696f1238e2217d') in 0.034718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_06.prefab
-  artifactKey: Guid(a6274c7f5e2fcaa409c4bffae9b2f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_06.prefab using Guid(a6274c7f5e2fcaa409c4bffae9b2f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f2592f1b2ae1519606ae76c7919a7a') in 0.020238 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_02.prefab
-  artifactKey: Guid(1cfaadf5461a2834a954d1204e5a634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_02.prefab using Guid(1cfaadf5461a2834a954d1204e5a634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de041f8b0ff5255401f9e448688644') in 0.023027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_05.prefab
-  artifactKey: Guid(362fec71bbd77ae45a2dab264844e7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_05.prefab using Guid(362fec71bbd77ae45a2dab264844e7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c42f097be18c45c2d790e5845be2f5') in 0.030241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_03.prefab
-  artifactKey: Guid(423db82826ea3564895adb8f00f48633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Stone/Stone_03.prefab using Guid(423db82826ea3564895adb8f00f48633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfb56f8ce0712c3ff72c982eef8624a') in 0.029596 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.663102 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tractor/Tractor_Blue.prefab
-  artifactKey: Guid(be7d324adfdcc204aaecbde339973775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tractor/Tractor_Blue.prefab using Guid(be7d324adfdcc204aaecbde339973775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f7ef354f788f9e034f0bf12b3cdcf6') in 0.036742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tractor/Tractor_Red.prefab
-  artifactKey: Guid(7b49a02daa39e0041826bab1cd740999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tractor/Tractor_Red.prefab using Guid(7b49a02daa39e0041826bab1cd740999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed31be5219a40e579b54dd4a998ba751') in 0.043239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.662427 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tree/Dry_Tree_01.prefab
-  artifactKey: Guid(4e6495ad3cf862c4ebd0fc0898a66f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tree/Dry_Tree_01.prefab using Guid(4e6495ad3cf862c4ebd0fc0898a66f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a821f0c496f06e789659a6275fb91ae') in 0.022149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tree/Dry_Tree_02.prefab
-  artifactKey: Guid(85090cda55b45b7498c0466d2eb0758f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tree/Dry_Tree_02.prefab using Guid(85090cda55b45b7498c0466d2eb0758f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d1344829710f25ebc37b4422a0df5f') in 0.044119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tree/Tree_02.prefab
-  artifactKey: Guid(6336931f0dbcfd1448bb2cc42bc9eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tree/Tree_02.prefab using Guid(6336931f0dbcfd1448bb2cc42bc9eca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a8f12214e719f3d3eb6e8c75312621') in 0.038905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tree/Tree_03.prefab
-  artifactKey: Guid(4e869812f3388dd4689f33234315f9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tree/Tree_03.prefab using Guid(4e869812f3388dd4689f33234315f9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46ce42412e69d86e541ede62e89eab5') in 0.039082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Map2/LowPolyVillage/Prefabs/Tree/Tree_01.prefab
-  artifactKey: Guid(c81523bdcafd56f43a67f3ef25a1995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Prefabs/Tree/Tree_01.prefab using Guid(c81523bdcafd56f43a67f3ef25a1995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac87d4b3ab83881bae5ffe36d2f8954') in 0.036597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 850.175105 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.001068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3277.155454 seconds.
-  path: Assets/Map2/LowPolyVillage/Material/HistoryVillage.mat
-  artifactKey: Guid(eb006c95f6053e441bfe07640ce00891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Map2/LowPolyVillage/Material/HistoryVillage.mat using Guid(eb006c95f6053e441bfe07640ce00891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4074ba44b7c418abcb8c368c76b33e1') in 0.083550 seconds
+  Time since last request: 125.995818 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_AO.png
+  artifactKey: Guid(572981d23c249024a9189323bf08a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_AO.png using Guid(572981d23c249024a9189323bf08a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c922a764ebac81ccb129e398ba875458') in 0.078836 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 861.322846 seconds.
-  path: Assets/Scenes/GameScene.unity
-  artifactKey: Guid(85ed28027983b05439f5b2e370a7514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/GameScene.unity using Guid(85ed28027983b05439f5b2e370a7514e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4726b41e5f1cde4a53bdf45bbe9b8347') in 0.001444 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Metallic.png
+  artifactKey: Guid(a9975ebe1309ad04f85c4acbb5d3c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Metallic.png using Guid(a9975ebe1309ad04f85c4acbb5d3c25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2442cf9686d754d9838a4e2034b261c') in 0.038471 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.857094 seconds.
-  path: Assets/Scenes/Sample.unity
-  artifactKey: Guid(d1664d4b1797a0243ab8841fb07903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Sample.unity using Guid(d1664d4b1797a0243ab8841fb07903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b054e9106a2446e44d848e948efe86') in 0.000534 seconds
+  Time since last request: 0.000247 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_B.png
+  artifactKey: Guid(d2658fabe40d01649abca44ef7aa1a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_B.png using Guid(d2658fabe40d01649abca44ef7aa1a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5e93f8661133a295b77e32f386ca9b') in 0.051324 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 5.597268 seconds.
-  path: Assets/Scenes/Game.unity
-  artifactKey: Guid(d1664d4b1797a0243ab8841fb07903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game.unity using Guid(d1664d4b1797a0243ab8841fb07903c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9a419c9a4246967fc61356d78aff76') in 0.000625 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Height.png
+  artifactKey: Guid(17aeb35c067cd4043bfd58e7e7b6cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Height.png using Guid(17aeb35c067cd4043bfd58e7e7b6cf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7998cc2224f224dab2130d8014b65fc') in 0.028620 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.155452 seconds.
-  path: Assets/Scenes/Game 1.unity
-  artifactKey: Guid(08dacf2b8beb5b145bed471f9d03b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Game 1.unity using Guid(08dacf2b8beb5b145bed471f9d03b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d8cc44690fd0bda942bc41b048e179') in 0.000763 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_D.png
+  artifactKey: Guid(8bd9f047100a82c4cb50b4ae49bbc86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_D.png using Guid(8bd9f047100a82c4cb50b4ae49bbc86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d228be5ac974d580a756d4323fdffba') in 0.025987 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.290907 seconds.
-  path: Assets/Scenes/Copy.unity
-  artifactKey: Guid(08dacf2b8beb5b145bed471f9d03b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Copy.unity using Guid(08dacf2b8beb5b145bed471f9d03b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f003012afb6d808a8209522ded25c0') in 0.002075 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Normal.png
+  artifactKey: Guid(2c49d12fb89450b488277e7bfc402e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Normal.png using Guid(2c49d12fb89450b488277e7bfc402e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8737487a06f636fdd3315445531192a') in 0.025243 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4.663583 seconds.
-  path: Assets/Scenes/Copy 240221.unity
-  artifactKey: Guid(08dacf2b8beb5b145bed471f9d03b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Copy 240221.unity using Guid(08dacf2b8beb5b145bed471f9d03b950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b39f2cfd6f7870c5194d3f631d1519') in 0.001113 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_C.png
+  artifactKey: Guid(52b99d64baa59234e83d32cd8818704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_C.png using Guid(52b99d64baa59234e83d32cd8818704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d797e031ea4520f24a47370aa10b419') in 0.027157 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_A.png
+  artifactKey: Guid(ccb9111526e1c13468f02b1c03776777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/WALLS/WALL_Bricks/Textures/Wall_Brick_Basecolor_A.png using Guid(ccb9111526e1c13468f02b1c03776777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2cced7f8331d70b047a449eee8c6db') in 0.025457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.796965 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png
+  artifactKey: Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_AO.png using Guid(0fd2da29303ebcb4cb50ad1cccf7f097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a800410a3f7cece7d2869ce8775b49') in 0.027415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Basecolor.png
+  artifactKey: Guid(c2e975e8a074dff45aee75e580a54344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Basecolor.png using Guid(c2e975e8a074dff45aee75e580a54344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bccc840c04729e4911580ce05e98b70b') in 0.023714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Height.png
+  artifactKey: Guid(97df09d6b5a195f438ae4c5dba98341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Height.png using Guid(97df09d6b5a195f438ae4c5dba98341b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e93963c3cdb1460542756c09d575c') in 0.022135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Normal.png
+  artifactKey: Guid(48c3f9bf0c6c95b4e8a00c6b9a8162be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Normal.png using Guid(48c3f9bf0c6c95b4e8a00c6b9a8162be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec44de8b66036615ebf93ba03ed95a9c') in 0.025020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Metallic.png
+  artifactKey: Guid(ae87662110a99a64d80a0cb0171f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon_Texture_Pack/DIRT/Dirt_Path/Textures/Dirt_Path_Metallic.png using Guid(ae87662110a99a64d80a0cb0171f7d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14875ed5d576c07b2b274c4f84b1588') in 0.018783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 37.894964 seconds.
+  path: Assets/Textuer/Dirt/Dirt_Path.mat
+  artifactKey: Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textuer/Dirt/Dirt_Path.mat using Guid(1cef938def0b527469f8ef0720c534dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee62c5e0993799bf2279c823fdfe74c') in 0.080605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
